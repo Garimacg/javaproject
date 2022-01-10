@@ -1,18 +1,18 @@
-package com.jitus.soap.web.service;
+package com.garima.soap.web.service;
 
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.jitus.students.GetStudentDetailsRequest;
-import com.jitus.students.GetStudentDetailsResponse;
-import com.jitus.students.StudentDetails;
+import com.garima.students.GetStudentDetailsRequest;
+import com.garima.students.GetStudentDetailsResponse;
+import com.garima.students.StudentDetails;
 
 @Endpoint
 public class StudentDetailsEndpoint {
 
-	@PayloadRoot(namespace = "http://jitus.com/students", localPart = "GetStudentDetailsRequest")
+	@PayloadRoot(namespace = "http://garima.com/students", localPart = "GetStudentDetailsRequest")
 	@ResponsePayload
 	public GetStudentDetailsResponse processCourseDetailsRequest(@RequestPayload GetStudentDetailsRequest request) {
 		GetStudentDetailsResponse response = new GetStudentDetailsResponse();

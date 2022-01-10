@@ -1,4 +1,4 @@
-package com.jitus.students;
+package com.garima.students;
 
 import java.net.MalformedURLException;
 import java.net.URL;

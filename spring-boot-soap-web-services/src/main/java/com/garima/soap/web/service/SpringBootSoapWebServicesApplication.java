@@ -1,4 +1,4 @@
-package com.jitus.soap.web.service;
+package com.garima.soap.web.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

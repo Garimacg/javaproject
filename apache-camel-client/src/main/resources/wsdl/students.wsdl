@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://jitus.com/students" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://jitus.com/students" targetNamespace="http://jitus.com/students">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://garima.com/students" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://garima.com/students" targetNamespace="http://garima.com/students">
   <wsdl:types>
-    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://jitus.com/students">
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://garima.com/students">
 	
 	<xs:element name="GetStudentDetailsRequest">
 		<xs:complexType>

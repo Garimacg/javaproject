@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.apache.camel.client.model.Employee;
-import com.jitus.students.GetStudentDetailsResponse;
-import com.jitus.students.StudentDetails;
+import com.garima.students.GetStudentDetailsResponse;
+import com.garima.students.StudentDetails;
 
 //@RestController
 public class RestApiController {

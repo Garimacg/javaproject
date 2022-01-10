@@ -6,7 +6,7 @@ import org.apache.camel.component.jackson.JacksonDataFormat;
 import org.apache.camel.model.rest.RestBindingMode;
 import org.springframework.stereotype.Component;
 
-import com.jitus.students.StudentDetails;
+import com.garima.students.StudentDetails;
 
 @Component
 public class RestToCXFServicesRoutBuilder extends RouteBuilder {
@@ -34,15 +34,23 @@ public class RestToCXFServicesRoutBuilder extends RouteBuilder {
 		.bean(WebServiceTimeout.class)
 		.log("cxf route-1 ${body}")
 		.setHeader(CxfConstants.OPERATION_NAME, constant("GetStudentDetails"))
-		.setHeader(CxfConstants.OPERATION_NAMESPACE, constant("http://jitus.com/students"))
+		.setHeader(CxfConstants.OPERATION_NAMESPACE, constant("http://garima.com/students"))
 		.setHeader("Accept-Encoding", constant(""))
-		.to("cxf://http://localhost:8080/ws" + "?serviceClass=com.jitus.students.StudentPort"
+		.to("cxf://http://localhost:8080/ws" + "?serviceClass=com.garima.students.StudentPort"
 				+ "&wsdlURL=/wsdl/students.wsdl")
 		.bean(new StudentResponse())
 		.log("cxf route-1 ${body}")
 		.marshal(jsonDataFormat);
 		
 		}
+	/*
+	 * from("timer://my-timer?fixedRate=true&period=500")
+                .transform(constant("DummyBody"))
+                .to(myEndpoint);
+	 * 
+	 * 
+	 */
+	 
 
 }
 

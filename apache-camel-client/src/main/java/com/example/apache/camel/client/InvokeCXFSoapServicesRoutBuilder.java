@@ -11,8 +11,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jitus.students.GetStudentDetailsResponse;
-import com.jitus.students.StudentDetails;
+import com.garima.students.GetStudentDetailsResponse;
+import com.garima.students.StudentDetails;
 
 //@Component
 public class InvokeCXFSoapServicesRoutBuilder extends RouteBuilder {

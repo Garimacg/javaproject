@@ -1,4 +1,4 @@
-package com.jitus.soap.web.service;
+package com.garima.soap.web.service;
 
 public class Student {
 	private Long id;

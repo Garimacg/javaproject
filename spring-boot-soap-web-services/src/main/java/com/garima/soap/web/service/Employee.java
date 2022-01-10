@@ -1,4 +1,4 @@
-package com.jitus.soap.web.service;
+package com.garima.soap.web.service;
 public class Employee {
 	private int empId;
 	private String name;

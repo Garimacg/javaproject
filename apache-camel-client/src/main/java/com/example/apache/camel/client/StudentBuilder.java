@@ -1,6 +1,6 @@
 package com.example.apache.camel.client;
 
-import com.jitus.students.GetStudentDetailsRequest;
+import com.garima.students.GetStudentDetailsRequest;
 
 public class StudentBuilder {
 

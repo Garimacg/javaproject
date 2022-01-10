@@ -1,4 +1,4 @@
-package com.jitus.students;
+package com.garima.students;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
