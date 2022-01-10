@@ -10,6 +10,7 @@ import com.garima.students.StudentDetails;
 
 @Component
 public class RestToCXFServicesRoutBuilder extends RouteBuilder {
+	
 
 	@Override
 	public void configure() throws Exception {
