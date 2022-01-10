@@ -1,4 +1,4 @@
-package com.jitus.soap.web.service;
+package com.garima.soap.web.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
